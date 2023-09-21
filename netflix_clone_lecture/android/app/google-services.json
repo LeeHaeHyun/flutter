@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059248186989",
+    "project_id": "netflix-clone-lecture-d4a3a",
+    "storage_bucket": "netflix-clone-lecture-d4a3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059248186989:android:419525c3fad93df6660164",
+        "android_client_info": {
+          "package_name": "com.study.netflix_clone_lecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTrErgypuycomsIssTX6-vbbUPqZIl9sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
