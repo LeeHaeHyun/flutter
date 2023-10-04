@@ -1,0 +1,60 @@
+name: ex49_webview
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+    webview_flutter: ^4.2.4
+
+    cupertino_icons: ^1.0.2
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    just_audio: ^0.9.35
+    flutter_lints: ^2.0.0
+    flutter_native_splash: ^2.3.3
+    flutter_launcher_icons: ^0.13.1
+
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/media/
+    #   - assets/media/
+
+    # example:
+    # fonts:
+    #   - family: Schyler
+    #     fonts:
+    #       - asset: fonts/Schyler-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    #   - family: Trajan Pro
+    #     fonts:
+    #       - asset: fonts/TrajanPro.ttf
+    #       - asset: fonts/TrajanPro_Bold.ttf
+    #         weight: 700
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/media/kpops.png"
+    min_sdk_android: 21 # android min sdk min:16, default 21
+    web:
+        generate: true
+        image_path: "assets/media/kpops.png"
+        background_color: "#hexcode"
+        theme_color: "#hexcode"
+    windows:
+        generate: true
+        image_path: "assets/media/kpops.png"
+        icon_size: 48 # min:48, max:256, default: 48
+    macos:
+        generate: true
+        image_path: "assets/media/kpops.png"
